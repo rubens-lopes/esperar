@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "awaitable timeout",
   "type": "module",
-  "main": "dist/index.js",
+  "main": "index.js",
   "scripts": {
     "build": "rimraf dist && tsc",
     "test": "jest",
-    "publish": "np"
+    "release": "np --branch main --contents dist"
   },
   "files": [
     "dist/index.js",
