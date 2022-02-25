@@ -1,0 +1,31 @@
+{
+  "name": "@rubens.lopes/esperar",
+  "version": "1.0.0",
+  "description": "awaitable timeout",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rimraf dist && tsc",
+    "test": "jest",
+    "publish": "np"
+  },
+  "files": [
+    "dist/index.js",
+    "dist/index.d.ts"
+  ],
+  "keywords": [
+    "async timeout"
+  ],
+  "author": "Rubens Armôa Lopes",
+  "repository": "https://github.com/rubens-lopes/esperar",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "jest": "^27.5.1",
+    "np": "^7.6.0",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^27.1.3",
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5"
+  }
+}
