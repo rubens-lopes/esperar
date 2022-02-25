@@ -1,6 +1,6 @@
 {
   "name": "@rubens.lopes/esperar",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "awaitable timeout",
   "type": "module",
   "main": "dist/index.js",
