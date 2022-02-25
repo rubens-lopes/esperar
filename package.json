@@ -16,7 +16,11 @@
     "async timeout"
   ],
   "author": "Rubens Armôa Lopes",
-  "repository": "https://github.com/rubens-lopes/esperar",
+  "repository": {
+    "directory": "src",
+    "type": "git",
+    "url": "https://github.com/rubens-lopes/esperar"
+  },
   "license": "MIT",
   "devDependencies": {
     "@types/jest": "^27.4.1",
